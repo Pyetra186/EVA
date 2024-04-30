@@ -18,24 +18,40 @@ h1{
    align-items: center;
    justify-content: center;
    display:flex;
+   margin-top: 20px;
  }
 
-div{
+
+.box1{
+    color: aliceblue;
+    margin-left: 45vh;
     position: absolute;
     height: 60vh;
     width: 45vh;
     background-color: rgba(0, 0, 0, 0.568);
-    border-radius: 50px;
-    margin-top: 10vh;
+    border-radius: 30px;
+    margin-top: 8vh;
+    font-weight: 20px;
 }
 
-.box1{
-    margin-left: 45vh;
-
-}
 .box2{
-
     margin-left: 120vh;
+    position: absolute;
+    height: 60vh;
+    width: 45vh;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 30px;
+    margin-top: 8vh;
+
+}
+
+h2{
+    font-size: 15px;
+    margin: 30px;
+    color: rgba(240, 248, 255, 0.63);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 footer{
@@ -43,7 +59,6 @@ footer{
 }
 
 .mensagem{
-  
     margin-left: 50vh;
     margin-top: 80vh;
     height: 6vh;
@@ -52,18 +67,23 @@ footer{
    
 }
 
-h3{
-    margin-left: 20px;
-    margin-top: 15px;
+.mensagem textarea{
+    height: 20px;
     font-size: 15px;
-    color: aliceblue;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    margin: 20px;
+    border-color:rgba(240, 248, 255, 0);;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(255, 255, 255, 0.63);
+  
 }
 
-footer img{
-    width: 30px;
-    margin-left: 94vh;
-    margin-top: -30px;
+button{
+    margin-top: -60px;
+    margin-left: 153vh;
+    background-color: rgba(240, 248, 255, 0);
+   
+}
+
+button img{
+    width: 35px;
 }
